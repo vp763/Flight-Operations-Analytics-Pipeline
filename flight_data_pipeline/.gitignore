@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Airflow generated logs & configs
+logs/
+config/
+airflow.cfg
+airflow.db
+
+# Sensitive credentials
+.env
+
+# Raw ingested JSON files
+data/flights/*
+!data/flights/.gitkeep
+
+# OS files
+.DS_Store
+.vscode/
+.idea/
